@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.opnplatform/packindex",
+  "title": "PackIndex",
+  "description": "Packaging material prices, quote checks, contract price adjustments, pack costing and supplier RFQs.",
+  "version": "1.1.0",
+  "websiteUrl": "https://opnplatform.com/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://opnplatform.com/api/mcp"
+    }
+  ]
+}
