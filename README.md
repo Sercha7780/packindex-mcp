@@ -1,8 +1,8 @@
 # PackIndex MCP Server
 
-Live packaging material and input prices, quote checks, contract price adjustments, pack costing and supplier RFQs — using your own OPN plan.
+Live packaging material and input prices, quote checks, contract price adjustments, pack costing and supplier RFQs — using your own Packindex plan.
 
-PackIndex is a hosted (remote) MCP server by the Open Packaging Network. There is nothing to install: connect your MCP client to the server URL and sign in with your OPN account when a tool needs it.
+PackIndex is a hosted (remote) MCP server by the Open Packaging Network. There is nothing to install: connect your MCP client to the server URL and sign in with your Packindex account when a tool needs it.
 
 | | |
 |---|---|
