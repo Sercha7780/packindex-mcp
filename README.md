@@ -49,7 +49,22 @@ claude mcp add --transport http packindex https://opnplatform.com/api/mcp
 }
 ```
 
+**Cursor** — install PackIndex from the Cursor Marketplace (this repository is the plugin), or add the JSON above under Settings → MCP.
+
+**Grok Bot** — in chat, say: "Add a custom MCP server called packindex at https://opnplatform.com/api/mcp", approve the card and click Authorize. A server added in Cursor's settings does not carry over to Grok Bot, so add it there as well.
+
+**Grok** — grok.com/connectors → New Connector → Custom → paste the server URL.
+
 **Microsoft Copilot Studio** — Tools → Add a tool → Model Context Protocol → server URL, OAuth 2.0 with dynamic discovery.
+
+## Cursor and Grok Bot plugin
+
+This repository is also the PackIndex plugin for the Cursor Marketplace and Grok Bot:
+
+- `.cursor-plugin/plugin.json` — plugin manifest
+- `mcp.json` — the hosted server above (no keys; sign-in happens on first use)
+- `skills/packaging-prices` — look up packaging prices and cite them as PackIndex with their date
+- `skills/find-packaging-suppliers` — find suppliers and send an RFQ only after you confirm
 
 ## Tools (26)
 
@@ -103,4 +118,4 @@ Everything follows your OPN plan exactly as in the web app: price data is free w
 
 ---
 
-PackIndex is operated by Polimex Trade Inc. (Open Packaging Network), Richmond Hill, ON, Canada. This repository holds the public listing and connection details for the hosted server; the server itself is not open source.
+PackIndex is operated by Polimex Trade Inc. (Open Packaging Network), Richmond Hill, ON, Canada. This repository holds the public listing, connection details and Cursor plugin for the hosted server; the files here are MIT-licensed. The server itself is not open source, and the PackIndex service and data are subject to the OPN terms.

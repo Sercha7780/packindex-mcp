@@ -1,0 +1,24 @@
+{
+  "name": "packindex",
+  "version": "1.0.0",
+  "description": "Live packaging material and input prices, supplier quote checks, pack costing and supplier RFQs from PackIndex \u2014 with your own OPN plan.",
+  "author": {
+    "name": "PackIndex"
+  },
+  "homepage": "https://opnplatform.com/mcp?ref=cursor",
+  "repository": "https://github.com/Sercha7780/packindex-mcp",
+  "license": "MIT",
+  "keywords": [
+    "packaging",
+    "prices",
+    "commodities",
+    "procurement",
+    "polymers",
+    "corrugated",
+    "rfq",
+    "suppliers",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "mcp.json"
+}
